@@ -924,6 +924,10 @@ footer {
         gap: 15px;
     }
 
+    .tech-stack h4{
+        font-size: 14px;
+    }
+
     .nav-links a {
         font-size: 14px;
     }
@@ -969,7 +973,10 @@ footer {
     .certificate-cards {
         grid-template-columns: 1fr;
     }
-
+    
+    .tech-stack h4{
+        font-size: 14px;
+    }
     .contact-container {
         flex-direction: column;
     }
