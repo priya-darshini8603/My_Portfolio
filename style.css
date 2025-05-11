@@ -880,7 +880,7 @@ footer {
 
     .project-info,
     .certificate-card p {
-        font-size: 7px;
+        font-size: 10px;
     }
 
     .certificate-card {
@@ -902,6 +902,7 @@ footer {
         grid-template-columns: 1fr;
     }
 
+
     .profile-image {
         width: 250px;
         height: 250px;
@@ -922,10 +923,6 @@ footer {
 
     .nav-links {
         gap: 15px;
-    }
-
-    .tech-stack h4{
-        font-size: 14px;
     }
 
     .nav-links a {
@@ -958,7 +955,7 @@ footer {
         width: 250px;
         height: 250px;
     }
-
+    
     .about-content {
         flex-direction: column;
         text-align: center;
@@ -973,10 +970,7 @@ footer {
     .certificate-cards {
         grid-template-columns: 1fr;
     }
-    
-    .tech-stack h4{
-        font-size: 14px;
-    }
+
     .contact-container {
         flex-direction: column;
     }
@@ -1121,33 +1115,6 @@ footer {
     }
 }
 
-@media (max-width: 400px) {
-    .nav-links {
-        gap: 10px;
-    }
-
-    .nav-links a {
-        font-size: 14px;
-    }
-
-    .logo {
-        font-size: 24px;
-    }
-
-    .project-cards,
-    .certificate-cards {
-        grid-template-columns: 1fr;
-    }
-
-    .project-links {
-        flex-direction: column;
-    }
-
-    .project-link {
-        width: 100%;
-        justify-content: center;
-    }
-}
 
 @media screen and (max-width: 280px) {
     .navbar {
