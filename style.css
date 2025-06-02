@@ -1224,6 +1224,31 @@ footer {
     }
   
 }
+    }
+}
+@media (max-width: 575px) {
+    .project-title h3 {
+        font-size: 1.125rem; /* 18px */
+    }
+    .project-info {
+        font-size: 0.75rem; /* 12px */
+    }
+    .tech-stack h4 {
+        font-size: 0.875rem; /* 14px */
+    }
+    .tech-tag {
+        font-size: 0.625rem; /* 10px */
+    }
+    .certificate-card h3 {
+        font-size: 0.875rem; /* 14px */
+    }
+    .certificate-card p {
+        font-size: 0.75rem; /* 12px */
+    }
+    .certificate-card .view-link {
+        font-size: 0.75rem;
+    }
+}
 
 .slide-in-up {
   animation: slideUp 1.2s ease-out forwards;
