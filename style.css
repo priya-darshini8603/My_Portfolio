@@ -839,403 +839,390 @@ footer {
 
 /*  MEDIA QUERIES */
 
-/* ========== DESKTOP (≥1200px) ========== */
 @media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
+    .container {
+        max-width: 1140px;
+    }
 }
 
-/* ========== LARGE TABLET AND SMALL LAPTOP (992px–1199px) ========== */
 @media (max-width: 1199px) {
-  .container {
-    max-width: 960px;
-  }
+    .container {
+        max-width: 960px;
+    }
 
-  .header-text h1 {
-    font-size: 48px;
-  }
+    .header-text h1 {
+        font-size: 48px;
+    }
 
-  .header-text h2 {
-    font-size: 28px;
-  }
+    .header-text h2 {
+        font-size: 28px;
+    }
 
-  .profile-image {
-    width: 300px;
-    height: 300px;
-  }
+    .profile-image {
+        width: 300px;
+        height: 300px;
+    }
 
-  .section-title {
-    font-size: 32px;
-  }
+    .section-title {
+        font-size: 32px;
+    }
 }
 
-/* ========== TABLET (≤991px) ========== */
+@media screen and (max-width: 980px) {
+    .section-title {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .header-text h1 {
+        font-size: 40px;
+    }
+
+    .header-text h2 {
+        font-size: 24px;
+    }
+
+    .header-text p {
+        font-size: 16px;
+    }
+
+    .project-card h3,
+    .certificate-card h3 {
+        font-size: 18px;
+    }
+
+    .project-info,
+    .certificate-card p {
+        font-size: 10px;
+    }
+
+    .certificate-card {
+        padding: 20px;
+    }
+
+    .project-content {
+        padding: 20px;
+    }
+
+    .project-link,
+    .tech-tag {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .project-cards,
+    .certificate-cards {
+        grid-template-columns: 1fr;
+    }
+
+
+    .profile-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-text p,
+    .interest-tag {
+        font-size: 15px;
+    }
+
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .education-card h3,
+    .education-card h4 {
+        font-size: 18px;
+    }
+}
+
+
 @media (max-width: 991px) {
-  .container {
-    max-width: 720px;
-  }
+    .container {
+        max-width: 720px;
+    }
 
-  .header-content {
-    flex-direction: column-reverse;
-    text-align: center;
-  }
+    .header-content {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
 
-  .header-text {
-    padding-right: 0;
-    margin-top: 40px;
-    text-align: center;
-  }
+    .header-text {
+        padding-right: 0;
+        margin-top: 40px;
+    }
 
-  .header-text h1 {
-    font-size: 40px;
-  }
+    .profile-image {
+        width: 250px;
+        height: 250px;
+    }
 
-  .header-text h2 {
-    font-size: 24px;
-  }
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
 
-  .header-text p {
-    font-size: 16px;
-  }
+    .interest-tags,
+    .skill-tags {
+        justify-content: center;
+    }
 
-  .profile-image {
-    width: 250px;
-    height: 250px;
-  }
+    .project-cards,
+    .certificate-cards {
+        grid-template-columns: 1fr;
+    }
 
-  .section-title {
-    font-size: 28px;
-    margin-bottom: 40px;
-  }
+    .contact-container {
+        flex-direction: column;
+    }
 
-  .project-cards,
-  .certificate-cards {
-    grid-template-columns: 1fr;
-  }
+    .contact-info {
+        margin-bottom: 40px;
+    }
 
-  .project-card,
-  .certificate-card {
-    padding: 20px;
-  }
-
-  .project-card h3,
-  .certificate-card h3 {
-    font-size: 18px;
-  }
-
-  .project-info,
-  .certificate-card p {
-    font-size: 10px;
-  }
-
-  .project-link,
-  .tech-tag {
-    font-size: 12px;
-    padding: 6px 12px;
-  }
-
-  .about-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-text p,
-  .interest-tag {
-    font-size: 15px;
-  }
-
-  .interest-tags,
-  .skill-tags {
-    justify-content: center;
-  }
-
-  .navbar {
-    padding: 15px 20px;
-  }
-
-  .logo {
-    font-size: 22px;
-  }
-
-  .nav-links {
-    gap: 15px;
-  }
-
-  .nav-links a {
-    font-size: 14px;
-  }
-
-  .education-card h3,
-  .education-card h4 {
-    font-size: 18px;
-  }
-
-  .contact-container {
-    flex-direction: column;
-  }
-
-  .contact-info {
-    margin-bottom: 40px;
-  }
-
-  .social-links {
-    justify-content: center;
-  }
-
-  .footer-links {
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
+    .social-links {
+        justify-content: center;
+    }
 }
 
-/* ========== MOBILE (≤767px) ========== */
 @media (max-width: 767px) {
-  .container {
-    max-width: 540px;
-  }
+    .container {
+        max-width: 540px;
+    }
 
-  .navbar-inner {
-    flex-direction: column;
-  }
+    .navbar {
+        padding: 15px 20px;
+    }
 
-  .logo {
-    margin-bottom: 15px;
-  }
+    .navbar-inner {
+        flex-direction: column;
+    }
 
-  .nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-  }
+    .logo {
+        margin-bottom: 15px;
+    }
 
-  header {
-    padding: 120px 0 80px;
-  }
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
 
-  .header-text h1 {
-    font-size: 36px;
-  }
+    header {
+        padding: 120px 0 80px;
+    }
 
-  .header-text h2 {
-    font-size: 24px;
-  }
+    .header-text h1 {
+        font-size: 36px;
+    }
 
-  .education-card,
-  .certificate-card {
-    padding: 20px;
-  }
+    .header-text h2 {
+        font-size: 24px;
+    }
 
-  .project-link,
-  .tech-tag {
-    font-size: 12px;
-    padding: 6px 10px;
-  }
+    .section-title {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
 
-  .contact-form {
-    padding: 25px;
-  }
+    .education-card,
+    .certificate-card {
+        padding: 20px;
+    }
 
-  .footer {
-    text-align: center;
-  }
+    .project-cards,
+    .certificate-cards {
+        grid-template-columns: 1fr;
+    }
 
-  .footer-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-  }
+    .contact-form {
+        padding: 25px;
+    }
 }
 
-/* ========== SMALL MOBILE (≤575px) ========== */
 @media (max-width: 575px) {
-  .header-text h1 {
-    font-size: 32px;
-  }
+    .header-text h1 {
+        font-size: 32px;
+    }
 
-  .header-text h2 {
-    font-size: 22px;
-  }
+    .header-text h2 {
+        font-size: 22px;
+    }
 
-  .header-text p {
-    font-size: 16px;
-  }
+    .header-text p {
+        font-size: 16px;
+    }
 
-  .profile-image {
-    width: 200px;
-    height: 200px;
-    border-width: 8px;
-  }
+    .project-cards,
+    .certificate-cards {
+        grid-template-columns: 1fr;
+    }
 
-  .section-title {
-    font-size: 24px;
-  }
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        border-width: 8px;
+    }
 
-  .about-text p {
-    font-size: 16px;
-  }
+    .section-title {
+        font-size: 24px;
+    }
 
-  .interest-tag,
-  .skill-tag {
-    padding: 8px 15px;
-    font-size: 14px;
-  }
+    .about-text p {
+        font-size: 16px;
+    }
 
-  .education-year {
-    padding: 6px 15px;
-    font-size: 12px;
-  }
+    .interest-tag,
+    .skill-tag {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
 
-  .education-card h3 {
-    font-size: 20px;
-  }
+    .education-year {
+        padding: 6px 15px;
+        font-size: 12px;
+    }
 
-  .education-card h4 {
-    font-size: 16px;
-  }
+    .education-card h3 {
+        font-size: 20px;
+    }
 
-  .tech-tags {
-    justify-content: center;
-  }
+    .education-card h4 {
+        font-size: 16px;
+    }
 
-  .form-control {
-    padding: 12px;
-  }
+    .tech-tags {
+        justify-content: center;
+    }
 
-  .submit-btn {
-    padding: 12px 25px;
-  }
+    .form-control {
+        padding: 12px;
+    }
 
-  .contact-link .icon,
-  .social-link {
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
-  }
+    .submit-btn {
+        padding: 12px 25px;
+    }
 
-  .project-card h3,
-  .certificate-card h3 {
-    font-size: 16px;
-  }
+    .contact-link .icon,
+    .social-link {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
 
-  .project-info,
-  .certificate-card p {
-    font-size: 12px;
-  }
-
-  .footer {
-    padding: 20px 10px;
-  }
-
-  .footer p,
-  .footer-links a {
-    font-size: 12px;
-  }
-
-  .footer-links {
-    flex-direction: column;
-    gap: 10px;
-  }
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
-/* ========== EXTRA SMALL DEVICES (≤280px) ========== */
-@media (max-width: 280px) {
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
 
-  .nav-links {
-    gap: 8px;
-    margin-top: 10px;
-  }
+@media screen and (max-width: 280px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
 
-  .nav-links a {
-    font-size: 12px;
-    padding: 2px 5px;
-  }
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 10px;
+    }
 
-  .header-text h1 {
-    font-size: 22px;
-  }
+    .nav-links a {
+        font-size: 12px;
+        padding: 2px 5px;
+    }
 
-  .header-text h2 {
-    font-size: 18px;
-  }
+    .project-cards,
+    .certificate-cards {
+        grid-template-columns: 1fr;
+    }
 
-  .logo {
-    font-size: 18px;
-    margin-bottom: 0;
-  }
+    .header-text h1 {
+        font-size: 22px;
+    }
 
-  .certificate-card,
-  .project-card {
-    padding: 12px;
-  }
+    .header-text h2 {
+        font-size: 18px;
+    }
 
-  .certificate-card h3,
-  .project-card h3 {
-    font-size: 16px;
-  }
+    .logo {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
 
-  .certificate-card p,
-  .project-info {
-    font-size: 12px;
-  }
+    .certificate-card,
+    .project-card {
+        padding: 12px;
+    }
 
-  .project-link,
-  .tech-tag {
-    font-size: 10px;
-    padding: 4px 8px;
-  }
+    .certificate-card h3,
+    .project-card h3 {
+        font-size: 16px;
+    }
 
-  .profile-image {
-    width: 180px;
-    height: 180px;
-  }
+    .certificate-card p,
+    .project-info {
+        font-size: 12px;
+    }
 
-  .about-text p {
-    font-size: 13px;
-  }
+    .project-link,
+    .tech-tag {
+        font-size: 10px;
+        padding: 4px 8px;
+    }
 
-  .section-title {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
+    .profile-image {
+        width: 180px;
+        height: 180px;
+    }
 
-  .contact {
-    font-size: 10px;
-  }
+    .about-text p {
+        font-size: 13px;
+    }
 
-  .contact .section-title,
-  .contact h3,
-  .contact h4 {
-    font-size: 14px;
-  }
+    .section-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
 
-  .contact p,
-  .contact a,
-  .contact .form-control,
-  .contact label {
-    font-size: 10px;
-  }
+    .contact {
+        font-size: 10px;
+    }
 
-  .contact .submit-btn {
-    font-size: 10px;
-    padding: 6px 10px;
-  }
+    .contact .section-title,
+    .contact h3,
+    .contact h4 {
+        font-size: 14px;
+    }
 
-  .footer p,
-  .footer-links a {
-    font-size: 10px;
-  }
+    .contact p,
+    .contact a,
+    .contact .form-control,
+    .contact label {
+        font-size: 10px;
+    }
 
-  .footer-links {
-    flex-direction: column;
-    gap: 8px;
-  }
+    .contact .submit-btn {
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+  
 }
 
 .slide-in-up {
