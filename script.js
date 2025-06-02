@@ -73,3 +73,28 @@ window.addEventListener('scroll', function () {
     }
   });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const elements = document.querySelectorAll('.slide-in-up-on-scroll');
+
+  function isInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+      rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.bottom >= 0
+    );
+  }
+
+  function checkElements() {
+    elements.forEach(el => {
+      if (isInViewport(el) && !el.classList.contains('slide-in-up')) {
+        el.classList.add('slide-in-up');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', checkElements);
+  window.addEventListener('resize', checkElements);
+
+  checkElements();
+});
