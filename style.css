@@ -448,7 +448,7 @@ header::after {
 }
 
 .tech-stack h4 {
-    font-size: 18px;
+    font-size: 185x;
     margin-bottom: 15px;
     color: var(--secondary-color);
 }
@@ -794,6 +794,7 @@ footer {
         opacity: 0;
         transform: translateY(-50px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -805,6 +806,7 @@ footer {
         opacity: 0;
         transform: translateY(50px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -886,14 +888,14 @@ footer {
         font-size: 16px;
     }
 
-    .project-card h3,
-    .certificate-card h3 {
-        font-size: 18px;
-    }
 
     .project-info,
     .certificate-card p {
-        font-size: 10px;
+        font-size: 12px;
+    }
+
+    .project-title h3 {
+        font-size: 14px;
     }
 
     .certificate-card {
@@ -992,6 +994,19 @@ footer {
         margin-bottom: 40px;
     }
 
+    .project-info,
+    .certificate-card p {
+        font-size: 12px;
+    }
+
+    .certificate-card p {
+        font-size: 12px;
+    }
+
+    .project-title h3 {
+        font-size: 15px;
+    }
+
     .social-links {
         justify-content: center;
     }
@@ -1045,6 +1060,20 @@ footer {
     .project-cards,
     .certificate-cards {
         grid-template-columns: 1fr;
+    }
+
+    .project-title h3 {
+        font-size: 15px;
+
+    }
+
+    .project-info,
+    .certificate-card p {
+        font-size: 12px;
+    }
+
+    .certificate-card p {
+        font-size: 12px;
     }
 
     .contact-form {
@@ -1102,6 +1131,12 @@ footer {
     .education-card h4 {
         font-size: 16px;
     }
+
+    .project-info,
+    .certificate-card p {
+        font-size: 12px;
+    }
+
 
     .tech-tags {
         justify-content: center;
@@ -1201,6 +1236,11 @@ footer {
         margin-bottom: 20px;
     }
 
+    .project-info,
+    .certificate-card p {
+        font-size: 12px;
+    }
+
     .contact {
         font-size: 10px;
     }
@@ -1222,34 +1262,9 @@ footer {
         font-size: 10px;
         padding: 6px 10px;
     }
-  
-}
-    }
-}
-@media (max-width: 575px) {
-    .project-title h3 {
-        font-size: 1.125rem; /* 18px */
-    }
-    .project-info {
-        font-size: 0.75rem; /* 12px */
-    }
-    .tech-stack h4 {
-        font-size: 0.875rem; /* 14px */
-    }
-    .tech-tag {
-        font-size: 0.625rem; /* 10px */
-    }
-    .certificate-card h3 {
-        font-size: 0.875rem; /* 14px */
-    }
-    .certificate-card p {
-        font-size: 0.75rem; /* 12px */
-    }
-    .certificate-card .view-link {
-        font-size: 0.75rem;
-    }
+
 }
 
 .slide-in-up {
-  animation: slideUp 1.2s ease-out forwards;
+    animation: slideUp 1.2s ease-out forwards;
 }
