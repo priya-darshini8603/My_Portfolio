@@ -1097,3 +1097,65 @@ footer {
 .slide-in-up {
     animation: slideUp 1.2s ease-out forwards;
 }
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header-content {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .header-text {
+        padding-right: 0;
+        margin-top: 40px;
+    }
+
+    .profile-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .interest-tags,
+    .skill-tags {
+        justify-content: center;
+    }
+
+    .project-cards,
+    .certificate-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        margin-bottom: 40px;
+    }
+
+    .project-info,
+    .certificate-card p {
+        font-size: 12px;
+    }
+
+    .certificate-card p {
+        font-size: 12px;
+    }
+
+    .project-title h3 {
+        font-size: 14px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+}
+
