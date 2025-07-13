@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priya Darshini - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-primary font-['Pacifico']">Portfolio</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="nav-link text-gray-700 hover:text-primary transition"
+                    aria-label="Navigate to About section">About</a>
+                <a href="#education" class="text-gray-700 hover:text-primary transition">Education</a>
+                <a href="#skills" class="text-gray-700 hover:text-primary transition">Skills</a>
+                <a href="#certificates" class="text-gray-700 hover:text-primary transition">Certificates</a>
+                <a href="#projects" class="text-gray-700 hover:text-primary transition">Projects</a>
+                <a href="#contact" class="text-gray-700 hover:text-primary transition">Contact</a>
+            </div>
+            <div class="md:hidden flex items-center">
+                <button id="mobile-menu-button" class="w-8 h-8 flex items-center justify-center">
+                    <i class="ri-menu-line text-gray-700 ri-lg"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-2 px-6 shadow-inner">
+            <a href="#about" class="block py-2 text-gray-700 hover:text-primary transition">About</a>
+            <a href="#education" class="block py-2 text-gray-700 hover:text-primary transition">Education</a>
+            <a href="#skills" class="block py-2 text-gray-700 hover:text-primary transition">Skills</a>
+            <a href="#certificates" class="block py-2 text-gray-700 hover:text-primary transition">Certificates</a>
+            <a href="#projects" class="block py-2 text-gray-700 hover:text-primary transition">Projects</a>
+            <a href="#contact" class="block py-2 text-gray-700 hover:text-primary transition">Contact</a>
+        </div>
+    </nav>
+
+    <section class="bg-gradient-to-r from-blue-50 to-blue-100 py-16">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Hi, I am Priya Darshini !</h1>
+                    <h2 class="text-xl md:text-2xl text-primary font-medium mb-6">Computer Science Engineering Student
+                    </h2>
+                    <p class="text-gray-600 mb-8 max-w-lg">Passionate about creating innovative solutions through code.
+                        Specializing in web development and machine learning.</p>
+                    <div class="flex space-x-4">
+                        <a href="#contact"
+                            class="bg-primary text-white px-6 py-3 !rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">Contact
+                            Me</a>
+                        <a href="#projects"
+                            class="bg-white text-primary border border-primary px-6 py-3 !rounded-button font-medium hover:bg-gray-50 transition whitespace-nowrap">View
+                            Projects</a>
+                    </div>
+                </div>
+                <div class="md:w-1/3 flex justify-center">
+                    <div class="w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-lg">
+                        <img src="https://drive.google.com/thumbnail?id=1qQt8s1VeUz2ySWthR3i_Ls0alw8kWTRL&sz=s800"
+                            alt="Priya Darshini" class="w-full h-full object-cover object-top">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Me Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 section-title text-gray-800 animate-fade-in-up">About Me
+            </h2>
+
+            <div class="max-w-3xl mx-auto animate-fade-in-up">
+                <p class="text-gray-700 mb-8 leading-relaxed">
+                    Passionate Computer Science Engineering student at Nitte Meenakshi Institute of Technology with a
+                    keen
+                    interest in Web Development, UI/UX and Machine Learning. Enjoy applying my expertise to real-world
+                    projects, with a strong commitment to continuous learning and collaboration in the dynamic tech
+                    industry.
+                </p>
+
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold mb-4 text-gray-800">I Love</h3>
+                    <div class="flex flex-wrap gap-4">
+                        <div
+                            class="flex items-center bg-blue-50 px-4 py-2 rounded-full transition transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-code-line text-primary"></i>
+                            </div>
+                            <span class="text-gray-700">Coding & Problem Solving</span>
+                        </div>
+
+                        <div
+                            class="flex items-center bg-blue-50 px-4 py-2 rounded-full transition transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-flight-takeoff-line text-primary"></i>
+                            </div>
+                            <span class="text-gray-700">Traveling</span>
+                        </div>
+
+                        <div
+                            class="flex items-center bg-blue-50 px-4 py-2 rounded-full transition transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-music-line text-primary"></i>
+                            </div>
+                            <span class="text-gray-700">Music</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Education Section -->
+    <section id="education" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-3xl font-bold text-center mb-12 section-title text-gray-800" data-aos="fade-up">
+                Education
+            </h2>
+
+
+            <div class="relative border-l-4 border-primary pl-10 max-w-4xl mx-auto">
+                <div class="absolute left-[-10px] top-6 w-5 h-5 bg-blue-400 rounded-full shadow-lg ring-4 ring-blue-200"
+                    data-aos="zoom-in">
+                </div>
+                <div class="bg-white bg-opacity-90 backdrop-blur-lg border border-blue-100 rounded-2xl shadow-xl px-8 py-10 mb-12 relative group transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl hover:border-blue-400 hover:bg-white/95 cursor-pointer"
+                    data-aos="fade-up">
+
+                    <div
+                        class="absolute right-4 top-4 flex items-center gap-1 text-primary text-xs font-semibold px-3 py-1 rounded bg-blue-50 shadow-sm">
+                        <i class="ri-bar-chart-fill text-primary text-sm"></i>
+                        <span class="whitespace-nowrap">CGPA: 9.1</span>
+                    </div>
+                    <div class="pt-4"></div>
+
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-2 mb-4">
+                        <div>
+                            <h3 class="text-xl sm:text-lg text-primary font-bold leading-tight">
+                                Bachelor of Engineering
+                            </h3>
+                            <p class="text-gray-600 text-sm sm:text-xs font-medium">
+                                Computer Science
+                            </p>
+                        </div>
+                        <span class="text-sm sm:text-xs text-gray-500 mt-2 md:mt-0">
+                            2022 – 2026
+                        </span>
+                    </div>
+
+
+                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Nitte Meenakshi Institute of Technology</h4>
+
+                    <div class="mt-6">
+                        <h5 class="font-semibold text-gray-800 mb-3">Key Achievements:</h5>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-start">
+                                <i class="ri-award-fill text-sky-500 mr-2 mt-0.5"></i>
+                                Awarded IEEE WIE Scholarship of Rs 50000 (2024 & 2025)
+                            </li>
+                            <li class="flex items-start">
+                                <i class="ri-file-text-line text-sky-500 mr-2 mt-0.5"></i>
+                                Awarded 1st prize in a national-level essay writing competition by the StudSat Club. Recognized among the top 10 essays across India, with a special commendation and cash prize from ADE-DRDO.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 section-title text-gray-800">Skills</h2>
+            <div class="max-w-4xl mx-auto">
+
+                <div class="mb-10">
+                    <h3 class="text-xl font-semibold mb-6 text-gray-800">Languages</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-code-s-slash-line text-blue-600"></i>
+                            </div>
+                            <span class="text-gray-700">Python</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-cup-line text-blue-500"></i>
+                            </div>
+                            <span class="text-gray-700">Java</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-javascript-line text-yellow-500"></i>
+                            </div>
+                            <span class="text-gray-700">JavaScript</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-code-s-slash-line text-blue-600"></i>
+                            </div>
+                            <span class="text-gray-700">C++</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-code-line text-gray-600"></i>
+                            </div>
+                            <span class="text-gray-700">C</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Web Development -->
+                <div class="mb-10">
+                    <h3 class="text-xl font-semibold mb-6 text-gray-800">Web Development</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-html5-line text-orange-500"></i>
+                            </div>
+                            <span class="text-gray-700">HTML5</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-css3-line text-blue-500"></i>
+                            </div>
+                            <span class="text-gray-700">CSS3</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-leaf-line text-blue-400"></i>
+                            </div>
+                            <span class="text-gray-700">Spring Boot</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-database-2-line text-green-500"></i>
+                            </div>
+                            <span class="text-gray-700">MongoDB</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-code-s-slash-line text-green-500"></i>
+                            </div>
+                            <span class="text-gray-700">jQuery</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-database-2-line text-green-600"></i>
+                            </div>
+                            <span class="text-gray-700">MySQL</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-database-2-line text-green-600"></i>
+                            </div>
+                            <span class="text-gray-700">SQLite</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-code-line text-blue-500"></i>
+                            </div>
+                            <span class="text-gray-700">Django</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-bootstrap-line text-purple-500"></i>
+                            </div>
+                            <span class="text-gray-700">Bootstrap</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-tools-line text-blue-400"></i>
+                            </div>
+                            <span class="text-gray-700">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Data & AI -->
+                <div class="mb-10">
+                    <h3 class="text-xl font-semibold mb-6 text-gray-800">Data & AI</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-database-line text-blue-500"></i>
+                            </div>
+                            <span class="text-gray-700">Machine Learning</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-bar-chart-2-line text-blue-500"></i>
+                            </div>
+                            <span class="text-gray-700">Data Visualization</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Design & Tools -->
+                <div class="mb-10">
+                    <h3 class="text-xl font-semibold mb-6 text-gray-800">Design & Tools</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-shape-line text-pink-500"></i>
+                            </div>
+                            <span class="text-gray-700">Figma</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-git-branch-line text-orange-500"></i>
+                            </div>
+                            <span class="text-gray-700">Git</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Core CS -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-6 text-gray-800">Core CS</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-flow-chart text-blue-600"></i>
+                            </div>
+                            <span class="text-gray-700">Data Structures & Algorithms</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-database-2-line text-green-500"></i>
+                            </div>
+                            <span class="text-gray-700">Database Management</span>
+                        </div>
+                        <div class="skill-tag flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                            <div class="w-6 h-6 flex items-center justify-center mr-2">
+                                <i class="ri-computer-line text-gray-700"></i>
+                            </div>
+                            <span class="text-gray-700">Operating Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 section-title text-gray-800">Certificates</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden project-card">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-lg font-bold text-gray-800">Django Web Framework</h3>
+                            <div class="w-10 h-10 flex items-center justify-center bg-blue-50 rounded-full">
+                                <i class="ri-code-box-line text-primary ri-lg"></i>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-building-line"></i>
+                            </div>
+                            <span>Meta</span>
+                        </div>
+                        <div class="flex items-center text-gray-500">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-calendar-line"></i>
+                            </div>
+                            <span>May 2025</span>
+                        </div>
+
+                        <div class="mt-5">
+                            <button class="text-primary hover:text-blue-700 flex items-center">
+                                <a href="https://www.coursera.org/account/accomplishments/verify/KEZSCS43CLX8?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"
+                                    class="view-link">
+                                    <span>View Certificate</span></a>
+                                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                                    <i class="ri-external-link-line"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden project-card">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-lg font-bold text-gray-800">Agile Scrum in Practice</h3>
+                            <div class="w-10 h-10 flex items-center justify-center bg-blue-50 rounded-full">
+                                <i class="ri-code-box-line text-primary ri-lg"></i>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-building-line"></i>
+                            </div>
+                            <span>Infosys Springboard</span>
+                        </div>
+                        <div class="flex items-center text-gray-500">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-calendar-line"></i>
+                            </div>
+                            <span>April 2025</span>
+                        </div>
+                        <div class="mt-5">
+                            <button class="text-primary hover:text-blue-700 flex items-center">
+                                <a href="https://drive.google.com/file/d/1S0z9Z0S1mcQSkCLYqG9xkGDYSTps1GL_"
+                                    class="view-link">
+                                    <span>View Certificate</span></a>
+                                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                                    <i class="ri-external-link-line"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden project-card">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-lg font-bold text-gray-800">Geodata Processing Using Python and Machine
+                                Learning</h3>
+                            <div class="w-10 h-10 flex items-center justify-center bg-blue-50 rounded-full">
+                                <i class="ri-code-box-line text-primary ri-lg"></i>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-building-line"></i>
+                            </div>
+                            <span>ISRO</span>
+                        </div>
+                        <div class="flex items-center text-gray-500">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-calendar-line"></i>
+                            </div>
+                            <span>March 2025</span>
+                        </div>
+                        <div class="mt-5">
+                            <button class="text-primary hover:text-blue-700 flex items-center">
+                                <a href="https://drive.google.com/file/d/1pr8A4JRbADIwFaRkAQKhIluR5152JyGa/view?usp=drivesdk"
+                                    class="view-link">
+                                    <span>View Certificate</span></a>
+                                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                                    <i class="ri-external-link-line"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden project-card">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-lg font-bold text-gray-800">Introduction to MongoDB</h3>
+                            <div class="w-10 h-10 flex items-center justify-center bg-blue-50 rounded-full">
+                                <i class="ri-code-box-line text-primary ri-lg"></i>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-building-line"></i>
+                            </div>
+                            <span>MongoDB University</span>
+                        </div>
+                        <div class="flex items-center text-gray-500">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-calendar-line"></i>
+                            </div>
+                            <span>December 2024</span>
+                        </div>
+                        <div class="mt-5">
+                            <button class="text-primary hover:text-blue-700 flex items-center">
+                                <a href="https://learn.mongodb.com/c/5fnASDVXSpyq0skj6cY_SA" class="view-link">
+                                    <span>View Certificate</span></a>
+                                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                                    <i class="ri-external-link-line"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden project-card">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-lg font-bold text-gray-800">Advanced Learning Algorithms</h3>
+                            <div class="w-10 h-10 flex items-center justify-center bg-blue-50 rounded-full">
+                                <i class="ri-code-box-line text-primary ri-lg"></i>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-building-line"></i>
+                            </div>
+                            <span>Stanford Online</span>
+                        </div>
+                        <div class="flex items-center text-gray-500">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-calendar-line"></i>
+                            </div>
+                            <span>September 2024</span>
+                        </div>
+                        <div class="mt-5">
+                            <button class="text-primary hover:text-blue-700 flex items-center">
+                                <a href="https://www.coursera.org/account/accomplishments/verify/3WTS07R1EFWU"
+                                    class="view-link">
+                                    <span>View Certificate</span></a>
+                                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                                    <i class="ri-external-link-line"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden project-card">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-lg font-bold text-gray-800">Tailwind CSS</h3>
+                            <div class="w-10 h-10 flex items-center justify-center bg-blue-50 rounded-full">
+                                <i class="ri-code-box-line text-primary ri-lg"></i>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-building-line"></i>
+                            </div>
+                            <span>Scrimba</span>
+                        </div>
+                        <div class="flex items-center text-gray-500">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-calendar-line"></i>
+                            </div>
+                            <span>September 2024</span>
+                        </div>
+                        <div class="mt-5">
+                            <button class="text-primary hover:text-blue-700 flex items-center">
+                                <a href="https://www.coursera.org/account/accomplishments/verify/F2XBW35W4OFG?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"
+                                    class="view-link">
+                                    <span>View Certificate</span></a>
+                                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                                    <i class="ri-external-link-line"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden project-card">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-lg font-bold text-gray-800">Introduction to Front-End Development</h3>
+                            <div class="w-10 h-10 flex items-center justify-center bg-blue-50 rounded-full">
+                                <i class="ri-code-box-line text-primary ri-lg"></i>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-building-line"></i>
+                            </div>
+                            <span>Meta</span>
+                        </div>
+                        <div class="flex items-center text-gray-500">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-calendar-line"></i>
+                            </div>
+                            <span>August 2024</span>
+                        </div>
+                        <div class="mt-5">
+                            <button class="text-primary hover:text-blue-700 flex items-center">
+                                <a href="https://www.coursera.org/account/accomplishments/verify/ATEQAM3NKU9Y"
+                                    class="view-link">
+                                    <span>View Certificate</span></a>
+                                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                                    <i class="ri-external-link-line"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden project-card">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-lg font-bold text-gray-800">Supervised Machine Learning: Regression and
+                                Classification </h3>
+                            <div class="w-10 h-10 flex items-center justify-center bg-blue-50 rounded-full">
+                                <i class="ri-code-box-line text-primary ri-lg"></i>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-building-line"></i>
+                            </div>
+                            <span>Stanford Online</span>
+                        </div>
+                        <div class="flex items-center text-gray-500">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-calendar-line"></i>
+                            </div>
+                            <span>April 2024</span>
+                        </div>
+                        <div class="mt-5">
+                            <button class="text-primary hover:text-blue-700 flex items-center">
+                                <a href="https://www.coursera.org/account/accomplishments/verify/3785UQQDVL43?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"
+                                    class="view-link">
+                                    <span>View Certificate</span></a>
+                                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                                    <i class="ri-external-link-line"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden project-card">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-lg font-bold text-gray-800">Java Foundation Certification </h3>
+                            <div class="w-10 h-10 flex items-center justify-center bg-blue-50 rounded-full">
+                                <i class="ri-code-box-line text-primary ri-lg"></i>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-gray-500 mb-4">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-building-line"></i>
+                            </div>
+                            <span>Infosys Springboard</span>
+                        </div>
+                        <div class="flex items-center text-gray-500">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-calendar-line"></i>
+                            </div>
+                            <span>January 2024</span>
+                        </div>
+                        <div class="mt-5">
+                            <button class="text-primary hover:text-blue-700 flex items-center">
+                                <a href="https://drive.google.com/file/d/1S3J0dhgAGtWFLfr_5XPO6LNVBcuk2Ur9"
+                                    class="view-link">
+                                    <span>View Certificate</span></a>
+                                <div class="w-5 h-5 flex items-center justify-center ml-1">
+                                    <i class="ri-external-link-line"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 section-title text-gray-800">Projects</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden project-card">
+                    <div class="h-48 overflow-hidden">
+                        <img src="images/p1.png" alt="Teacher Leave Management System"
+                            class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Teacher Leave Management System</h3>
+                        <p class="text-gray-600 mb-4">A web-based application built with PHP, MySQL, HTML, CSS, and
+                            jQuery to simplify and digitize the leave process for teachers. Features include role-based
+                            access, real-time leave tracking, and an admin dashboard for efficient management. Designed
+                            for transparency, ease of use, and scalability in academic institutions.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">CSS</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">jQuery</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">MySQL</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">PHP</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Bootstrap</span>
+                        </div>
+                        <div class="flex space-x-3">
+                            <a href="https://github.com/priya-darshini8603/Teacher_Leave_Management_System.git"
+                                class="text-gray-700 hover:text-gray-900 flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center mr-1">
+                                    <i class="ri-github-line"></i>
+                                </div>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden project-card">
+                    <div class="h-48 overflow-hidden">
+                        <img src="images/p2.png" alt="AI Chrome Summarizer"
+                            class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">AI Chrome Summarizer </h3>
+                        <p class="text-gray-600 mb-4">The AI Chrome Summarizer is a custom Chrome Extension integrated
+                            with Gemini API to provide instant, concise summaries of web content. Built using Spring
+                            boot, REST API,JavaScript, HTML, and CSS, the extension allows users to summarize articles
+                            or pages with a single click. It enhances productivity by reducing reading time and making
+                            key information easily accessible within the browser.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Spring Boot</span>
+                            <span class="bg-red-100 text-red-800 text-xs px-3 py-1 rounded-full">Rest API</span>
+                            <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">HTML</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">CSS</span>
+                            <span class="bg-red-100 text-red-800 text-xs px-3 py-1 rounded-full">Gemini API</span>
+                        </div>
+                        <div class="flex space-x-3">
+                            <a href="https://github.com/priya-darshini8603/AI-CHROME-SUMMARIZER.git"
+                                class="text-gray-700 hover:text-gray-900 flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center mr-1">
+                                    <i class="ri-github-line"></i>
+                                </div>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden project-card">
+                    <div class="h-48 overflow-hidden">
+                        <img src="images/p3.png" alt="CodeDetect - ML Powered Web App"
+                            class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">CodeDetect - ML Powered Web App</h3>
+                        <p class="text-gray-600 mb-4">A Django-based web app that uses machine learning to detect the
+                            programming language of a given code snippet. Built with Python, scikit-learn, Tailwind CSS,
+                            and JavaScript, it provides real-time predictions using models like Logistic Regression, Multinomial NB and
+                            Random Forest. Lightweight, database-free, and ideal for showcasing ML integration with web
+                            development.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Python</span>
+                            <span class="bg-orange-100 text-orange-800 text-xs px-3 py-1 rounded-full">Django</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">Joblib</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
+                            <span class="bg-orange-100 text-orange-800 text-xs px-3 py-1 rounded-full">Tailwind
+                                CSS</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">Javascript</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">NLP</span>
+                        </div>
+                        <div class="flex space-x-3">
+                            <a href="https://github.com/priya-darshini8603/CodeDetect_ML_Django.git"
+                                class="text-gray-700 hover:text-gray-900 flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center mr-1">
+                                    <i class="ri-github-line"></i>
+                                </div>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 section-title text-gray-800">Contact Me</h2>
+            <div class="flex flex-col md:flex-row gap-10 max-w-5xl mx-auto">
+                <div class="md:w-3/5">
+                    <div class="bg-white rounded-lg shadow-md p-8">
+                        <h3 class="text-xl font-bold text-gray-800 mb-6">Get In Touch</h3>
+                        <div class="flex items-start mb-8">
+                            <div class="w-10 h-10 flex items-center justify-center bg-blue-50 rounded-full mr-4">
+                                <i class="ri-mail-line text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-base sm:text-sm font-semibold text-gray-600 mb-1">
+                                    Email
+                                </h4>
+                                <a href="mailto:darshini.devi8603@gmail.com"
+                                    class="text-lg sm:text-base text-gray-800 hover:text-primary break-all">
+                                    darshini.devi8603@gmail.com
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="flex items-start mb-8">
+                            <div class="w-10 h-10 flex items-center justify-center bg-blue-50 rounded-full mr-4">
+                                <i class="ri-map-pin-line text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-gray-600 mb-1">Location</h4>
+                                <p class="text-gray-800">Bangalore, Karnataka, India</p>
+                            </div>
+                        </div>
+                        <h4 class="text-sm font-semibold text-gray-600 mb-4">Follow Me</h4>
+                        <div class="flex space-x-4">
+                            <a href="https://www.linkedin.com/in/priya-darshini-i-3149361b0/"
+                                class="w-10 h-10 flex items-center justify-center bg-blue-50 rounded-full hover:bg-blue-100 transition">
+                                <i class="ri-linkedin-fill text-blue-600"></i>
+                            </a>
+                            <a href="https://github.com/priya-darshini8603"
+                                class="w-10 h-10 flex items-center justify-center bg-gray-50 rounded-full hover:bg-gray-100 transition">
+                                <i class="ri-github-fill text-gray-800"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-3/5">
+                    <div class="bg-white rounded-lg shadow-md p-8">
+                        <h3 class="text-xl font-bold text-gray-800 mb-6">Send Me a Message</h3>
+                        <form>
+                            <div class="mb-4">
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Your Name</label>
+                                <input type="text" id="name"
+                                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                                    placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Your
+                                    Email</label>
+                                <input type="email" id="email"
+                                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                                    placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="subject"
+                                    class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
+                                <input type="text" id="subject"
+                                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                                    placeholder="Subject" required>
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Your
+                                    Message</label>
+                                <textarea id="message" rows="5"
+                                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                                    placeholder="Your Message..." required></textarea>
+                            </div>
+                            <button type="submit"
+                                class="w-full bg-primary text-white py-3 !rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">Send
+                                Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="text-2xl font-bold font-['Pacifico']">Priya Darshini I</a>
+                    <p class="text-gray-400 mt-2">Computer Science Engineering Student</p>
+                </div>
+                <div class="flex flex-col md:flex-row md:space-x-12 space-y-6 md:space-y-0">
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#about" class="text-gray-400 hover:text-white transition">About</a></li>
+                            <li><a href="#education" class="text-gray-400 hover:text-white transition">Education</a>
+                            </li>
+                            <li><a href="#skills" class="text-gray-400 hover:text-white transition">Skills</a></li>
+                            <li><a href="#projects" class="text-gray-400 hover:text-white transition">Projects</a></li>
+                            <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Connect</h4>
+                        <div class="flex space-x-4">
+                            <a href="https://www.linkedin.com/in/priya-darshini-i-3149361b0/"
+                                class="text-gray-400 hover:text-white transition">
+                                <div class="w-8 h-8 flex items-center justify-center">
+                                    <i class="ri-linkedin-fill ri-lg"></i>
+                                </div>
+                            </a>
+                            <a href="https://github.com/priya-darshini8603"
+                                class="text-gray-400 hover:text-white transition">
+                                <div class="w-8 h-8 flex items-center justify-center">
+                                    <i class="ri-github-fill ri-lg"></i>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-center items-center">
+                <p class="text-gray-400">© 2025 Priya Darshini. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
